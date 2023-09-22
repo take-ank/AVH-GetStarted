@@ -29,7 +29,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  ci_test: write
+  checks: write
       
 env:
   # Enable the next three lines if you are using IAM User and you added them in the repo's secret.
