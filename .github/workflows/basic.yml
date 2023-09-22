@@ -24,9 +24,6 @@ on:
       - basic/**/*
   workflow_dispatch:
 
-permissions:
-  checks: write
-
 env:
   # Enable the next three lines if you are using IAM User and you added them in the repo's secret.
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
